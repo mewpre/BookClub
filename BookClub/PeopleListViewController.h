@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PeopleListViewController.h
 //  BookClub
 //
 //  Created by Yi-Chin Sun on 1/28/15.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Person;
 
-@interface ViewController : UIViewController
+@interface PeopleListViewController : UIViewController
 
+@property NSManagedObjectContext *context;
 
 @end
-
